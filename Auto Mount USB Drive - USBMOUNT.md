@@ -27,6 +27,7 @@ If the foregoing doesn't work then additional modification maybe necessary:
 	 2) Reboot
 
 2. Set FS_MOUNTOPTIONS to read write in "*/etc/usbmount/usbmount.conf*" file:
-
-   `FS_MOUNTOPTIONS="-fstype=[FILE SYSTEM TYPE],umask=0000"
-   FILE SYSTEM TYPE=vfat|ext2|ext3|ext4|hfsplus|ntfs`
+   ```
+   FS_MOUNTOPTIONS="-fstype=[FILE SYSTEM TYPE],umask=0000"
+   FILE SYSTEM TYPE=vfat|ext2|ext3|ext4|hfsplus|ntfs fuseblk
+   ```
