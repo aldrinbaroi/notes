@@ -30,6 +30,3 @@ If the foregoing doesn't work then additional modification maybe necessary:
 
    `FS_MOUNTOPTIONS="-fstype=[FILE SYSTEM TYPE],umask=0000"
    FILE SYSTEM TYPE=vfat|ext2|ext3|ext4|hfsplus|ntfs`
-
-
-#### Using PMOUNT
