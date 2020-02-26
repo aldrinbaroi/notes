@@ -2,7 +2,7 @@
 
 **Quick Reference**
 
-For server/desktop using ***netword***, the config file (*config file name* **.yaml**) should look like the follow:
+For server/desktop using ***systemd-netword***, the config file (*config file name* **.yaml**) should look like the follow:
 ```
 network:
   version: 2
