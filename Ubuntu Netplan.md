@@ -2,7 +2,7 @@
 
 **Quick Reference**
 
-For server/desktop using ***systemd-netword***, the config file (*config file name* **.yaml**) should look like the follow:
+For server/desktop using ***systemd-netword***, the config file (*config file name* **.yaml**) should look like the following:
 ```
 network:
   version: 2
@@ -11,7 +11,7 @@ network:
     enp0s3:
       dhcp4: true
 ```
-For server/desktop using ***NetworkManager***, the config file (*config file name* **.yaml**) should look like the follow:
+For server/desktop using ***NetworkManager***, the config file (*config file name* **.yaml**) should look like the following:
 ```
 network:
   version: 2
@@ -23,5 +23,6 @@ sudo netplan --debug generate
 sudo netplan apply
 reboot
 ```
-**Detail Reference/Examples:** <br/>
+**Detail Reference/Examples:** 
+
 https://netplan.io/examples
