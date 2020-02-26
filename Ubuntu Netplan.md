@@ -1,4 +1,6 @@
-**Ubuntu Netplan**
+### Ubuntu Netplan
+
+**Quick Reference**
 
 For server/desktop using ***netword***, the config file (*config file name* **.yaml**) should look like the follow:
 ```
@@ -21,3 +23,5 @@ sudo netplan --debug generate
 sudo netplan apply
 reboot
 ```
+**Detail Reference/Examples:** <br/>
+https://netplan.io/examples
