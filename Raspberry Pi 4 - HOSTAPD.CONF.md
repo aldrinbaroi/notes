@@ -1,4 +1,6 @@
 # This 5G Config works
+### /etc/hostapd/hostapd.conf
+
 ```
 ssid=PI3AC
 wpa_passphrase=test12344321tset
