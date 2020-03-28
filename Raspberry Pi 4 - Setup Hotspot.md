@@ -1,6 +1,12 @@
-# This 5G Config works
-### For Raspberry Pi 4 (Raspbian Buster)
-### /etc/hostapd/hostapd.conf
+# Raspberry Pi 4 - Setup Hotspot
+
+Use the following link to configure the hotspot on the Pi **BUT** use the **hostapd.conf** configuration on this page.
+
+ https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md
+
+### This 5G Config for HOSTAPD works
+#### For Raspberry Pi 4 (Raspbian Buster)
+#### /etc/hostapd/hostapd.conf
 
 ```
 ssid=PI3AC
