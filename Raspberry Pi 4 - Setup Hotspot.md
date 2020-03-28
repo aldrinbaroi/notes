@@ -9,8 +9,8 @@ Use the following link to configure the hotspot on the Pi **BUT** use the **host
 #### /etc/hostapd/hostapd.conf
 
 ```
-ssid=PI3AC
-wpa_passphrase=test12344321tset
+ssid=YOUR_SSID
+wpa_passphrase=YOUR_PASSPHRASE
 
 country_code=US
 
