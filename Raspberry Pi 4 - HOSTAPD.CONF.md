@@ -1,4 +1,5 @@
 # This 5G Config works
+### For Raspberry Pi 4 (Raspbian Buster)
 ### /etc/hostapd/hostapd.conf
 
 ```
