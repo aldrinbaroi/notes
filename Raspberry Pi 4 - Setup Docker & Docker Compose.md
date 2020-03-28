@@ -13,7 +13,7 @@ Add permission to Pi User to run Docker Commands without SUDO
 Reboot here or run the next commands with a sudo
 Test Docker installation
 
-    docker run hello-world
+    docker run --rm hello-world
 
 ### Install Docker Compose
 Install dependencies
