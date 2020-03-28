@@ -1,5 +1,6 @@
 # This 5G Config works
-  ssid=PI3AC
+```
+ssid=PI3AC
 wpa_passphrase=test12344321tset
 
 country_code=US
@@ -35,4 +36,4 @@ vht_capab=[MAX-AMSDU-3839][SHORT-GI-80]
 vht_oper_chwidth=1
 channel=36
 vht_oper_centr_freq_seg0_idx=42
-
+```
