@@ -1,8 +1,19 @@
-Install docker on raspbian buster
+### Install docker & docker-compose on raspbian buster
 
-`curl -sSL https://get.docker.com | sh`
+#### Install docker
 
-**sudo** is needed to run docker command.  This can be avoided by adding the **user** to **docker** group:
+  `curl -sSL https://get.docker.com | sh`
 
-`sudo usermod -aG docker pi`
+  **sudo** is needed to run docker command.  This can be avoided by adding the **user** to **docker** group:
 
+  `sudo usermod -aG docker pi`
+
+
+#### Instal docker-compose
+
+```
+  sudo apt install libffi-dev libssl-dev python3 python3-pip
+  sudo apt remove python-configparser
+  sudo pip3 install docker-compose
+  reboot
+```
