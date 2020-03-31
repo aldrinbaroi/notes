@@ -5,7 +5,7 @@
 ```
 curl -sSL https://get.docker.com | sh`
 ```
-  _*sudo*_ is needed to run docker command.  This can be avoided by adding the **user** to **docker** group:
+  ***sudo*** is needed to run docker command.  This can be avoided by adding the ***user*** to ***docker*** group:
 
 ```
 sudo usermod -aG docker pi`
