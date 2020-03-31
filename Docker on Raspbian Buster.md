@@ -9,7 +9,7 @@
   `sudo usermod -aG docker pi`
 
 
-#### Instal docker-compose
+#### Install docker-compose
 
 ```
   sudo apt install libffi-dev libssl-dev python3 python3-pip
