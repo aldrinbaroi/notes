@@ -12,8 +12,8 @@
 #### Install docker-compose
 
 ```
-  sudo apt install libffi-dev libssl-dev python3 python3-pip
-  sudo apt remove python-configparser
-  sudo pip3 install docker-compose
-  reboot
+sudo apt install libffi-dev libssl-dev python3 python3-pip
+sudo apt remove python-configparser
+sudo pip3 install docker-compose
+reboot
 ```
