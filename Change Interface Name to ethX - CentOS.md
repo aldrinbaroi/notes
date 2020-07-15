@@ -11,6 +11,8 @@ GRUB_CMDLINE_LINUX="resume=/dev/mapper/cl_vm--manager-swap rd.lvm.lv=cl_vm-manag
 
 ### Step 2
 
+Update GRUB
+
 ```
 grub2-mkconfig -o /boot/grub2/grub.cfg
 ```
