@@ -1,7 +1,7 @@
 ## Change Interface Name to ethX - CentOS / RHEL
 
 ### Step 1
-Edit GRUB to add **net.ifname=0** and **biosdevname=0** to **GRUB_CMDLINE_LINUX**
+Edit GRUB to add **net.ifnames=0** and **biosdevname=0** to **GRUB_CMDLINE_LINUX**
 
 Example:
 
