@@ -1,0 +1,16 @@
+# Ideas
+
+## Multi/hybrid Cloud 
+. Multi/hybrid Cloud Service Starter (MHSS)
+.. Each cloud/datacenter will run a copy of MHSS
+.. MHSS will
+... Will connect with other MHSS instance through APIs?
+... Provision environment to run trarget service (TS)
+... Get public IP of TS & register with "All DNS" (AD) from the respective cloud providers
+... Dynamically update service configs with DNS names
+... Start the service
+. Build Gobal Zookeeper starter using MHSS
+. Build Pulsar starter using MHSS
+
+## Extend Pulsar tiered storage
+Extend Pulsar tiered storage to support GCP, Azure, etc. cloud storage in addition to AWS S3
