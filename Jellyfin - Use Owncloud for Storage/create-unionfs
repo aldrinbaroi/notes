@@ -1,0 +1,16 @@
+#!/bin/bash
+
+LOWER_DIR=$1
+UPPER_DIR=$2
+OVERLAY_DIR=$3
+
+[[ -z "$LOWER_DIR" ]] && echo LOWER_DIR must be specified && exit 1
+[[ -z "$UPPER_DIR" ]] && echo UPPER_DIR must be specified && exit 1
+[[ -z "$OVERLAY_DIR" ]] && echo OVERLAY_DIR must be specified && exit 1
+
+unionfs -o cow,max_files=32768 \
+        -o allow_other,use_ino,suid,dev,nonempty \
+         $UPPER_DIR=RW:$LOWER_DIR=RO \
+         $OVERLAY_DIR
+
+#::END::
